@@ -43,10 +43,11 @@ def total_gross(source)
   count = 0 
   
   while count < source.length do
-    grand_total += totals_by_director[names[count]]
+    grand_total += totals_by_director[names][count]
     count += 1 
   end
   grand_total
+end
   # Write this implementation
   #
   # Should use methods:
@@ -56,6 +57,6 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-end
+
 
 
