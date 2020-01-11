@@ -31,8 +31,8 @@ def list_of_directors(source)
     directors_name = source[count][:name]
     array.push(directors_name)
     count += 1
-    array
   end
+  array
   # Write this implementation
 end
 
