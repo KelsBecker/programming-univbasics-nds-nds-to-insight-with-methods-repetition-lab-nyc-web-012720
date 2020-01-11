@@ -29,7 +29,7 @@ def list_of_directors(source)
   count = 0 
   while count < source.length do
     array.push source[count][:name]
-    count += 
+    count += 1
     array
   end
   # Write this implementation
