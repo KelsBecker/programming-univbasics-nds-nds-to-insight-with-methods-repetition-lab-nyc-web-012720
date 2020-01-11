@@ -39,6 +39,11 @@ end
 def total_gross(source)
   totals_by_director = directors_totals(source)
   names = list_of_directors(source)
+  grand_total = 0 
+  count = 0 
+  
+  while count < source.length do
+    grand_total += 
   # Write this implementation
   #
   # Should use methods:
