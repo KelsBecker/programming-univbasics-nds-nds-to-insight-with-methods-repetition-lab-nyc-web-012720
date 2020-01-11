@@ -28,6 +28,7 @@ def list_of_directors(source)
   array = []
   count = 0 
   while count < source.length do
+    directors_name = 
     array.push source[count][:name]
     count += 1
     array
